@@ -1,7 +1,7 @@
 factorial <- function(n){
   factorial <-1
   if(n < 0){
-    print("No es posible calcular el factorial de un numero negativo")
+    print("No es posible calcular el factorial de un número negativo")
   }else if(n == 0){
     print("Su factorial es 0")
   }else{
