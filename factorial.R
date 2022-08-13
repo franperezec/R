@@ -1,7 +1,7 @@
 factorial <- function(n){
   factorial <-1
   if(n < 0){
-    print("The factorials of nonpositive integers are no definied.")
+    print("The factorials of nonpositive integers are not definied.")
   }else if(n == 0){
     print("The factorial is: 1")
   }else{
