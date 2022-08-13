@@ -1,14 +1,14 @@
 factorial <- function(n){
   factorial <-1
   if(n < 0){
-    print("No es posible calcular el factorial de un número negativo")
+    print("The factorials of nonpositive integers are no definied.")
   }else if(n == 0){
-    print("Su factorial es 0")
+    print("The factorial is: 1")
   }else{
     for (i in 1:n) {
       factorial<-factorial*i
     }
-    print(paste("El factorial de ", n))
-    print(paste("es: ", factorial))
+    print(paste("The factorial of ", n))
+    print(paste("is: ", factorial))
   } 
 }
